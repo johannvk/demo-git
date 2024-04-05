@@ -18,7 +18,7 @@ readme = "README.md"             # Path to your README file (likely this can be 
 # Below, we specify to poetry which package should be included. As it is now, we are telling poetry to include the package called "package_name".
 # This should be changed to the name of your package. The name of the package should be the same as the name of the folder "/src/<package_name>".
 packages = [
-    { include = "package_name", from = "src" }
+    { include = "demo", from = "src" }
 ]
 
 [tool.poetry.dependencies]
