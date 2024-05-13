@@ -9,7 +9,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 # Information about the project and authors should be filled in the fields below.
 # If some of the fields are not relevant to your project, they can be removed.
-name = "package_name"            # The name of your package
+name = "demo_package"            # The name of your package
 version = "0.1.0"                # The version of your package
 description = ""                 # A short description of your package
 authors = ["NR Person"]          # A list of authors in the format Name <email> (The email is optional).
@@ -40,6 +40,9 @@ ipython = "^8.21.0"
 ipykernel = "^6.29.2"
 jupyter = "^1.0.0"
 matplotlib = "^3.8.3"   # Library for plotting and visualization
+
+[tool.poetry.group.tutorial]
+optional = true
 
 [tool.poetry.group.tutorial.dependencies]
 # Dependencies that only are needed in a tutorial associated with a project.
